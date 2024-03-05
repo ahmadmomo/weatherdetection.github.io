@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+    background-image: url('https://images.radio.com/aiu-media/gettyimages-494876596-36deeee0-a564-449a-82c3-9b5772f7e41e.jpg?width=800');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-align: center;
+    object-fit: cover;
+}
+
+#app{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.entry{
+    background: rgba(59, 74, 107, .4);
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#3b4a6b;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    width: 200px;
+    height: 100px;
+    background:#3b4a6b;  
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    display: block;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:#3b4a6b;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+/* input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+} */
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+
+/* .feel{
+    display: flex;
+    flex-direction: column;
+} */
+
+.thebody{
+    width: 50%;
+    text-align: center;
+    position: relative;
+    background-color: aliceblue;
+    object-fit: fill;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.thebody{
+    text-align: center;
+    display: flex;
+    
+}
+
+.thebody {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Adjust the height based on your layout */
+  }
+  
+  #app {
+    text-align: center; /* Center the text content within #app */
+  }
+  
+  .holder {
+    margin-bottom: 20px; /* Add some spacing between holders */
+  }
+  
+  .zip,
+  .feel {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center child elements horizontally within .zip and .feel */
+  }
+  
+  .myInput {
+    width: 100%; /* Make the text area take up 100% of the container width */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+  }
+  
+  /* Additional styling for better visibility */
+  #generate {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #generate:hover {
+    background-color: #45a049;
+  }
+  
